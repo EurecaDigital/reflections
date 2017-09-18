@@ -1,0 +1,68 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+--
+Como a visualização de uma diferença entre duas versões de um arquivo ajudou você a ver o erro que
+foi introduzido?
+
+    RS: Identificando somente as linhas que possuem diferenças entre os dois arquivos.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+--
+Como ter fácil acesso a todo o histórico de um arquivo pode torná-lo um 
+programador mais eficiente no longo prazo?
+
+    RS: Primeiramente, conseguir identificar quais são os erros mais comuns que cometemos
+        ao evoluir um projeto, diminuindo a margem de erro com o aprendizado, de projeto após projeto.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+--
+Na sua opinião, quais são os prós e contras de escolher manualmente quando criar um commit, 
+como ocorre no Git, v. o salvamento automático de versões, como no Google Docs?
+
+    RS: Os Prós é que se tem que saber o momento certo de se fazer um commit, 
+        situações como alteração de lógica, inclusão de um novo recurso e o 
+        Contra é que você pode esquecer de fazer tais commits nos momentos que realmente precisam serem feitos.
+
+        Já os demais salvamentos automáticos, não refletem a realidade de uma alteração significativa.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+--
+Por que você acha que alguns sistemas de controle de versão, como o Git, permitem salvar vários arquivos em um commit, enquanto outros, como o Google Docs, tratam cada arquivo separadamente?
+
+    RS: Porque o GIT entende que existem alterações de arquivos que podem afetar outros arquivos relacionados, tipo uma declaração de uma função que passa a receber mais de um parametro, ou um .CSS que altera o estilo de um elemento que deveria ser alterado em um único .HTML.
+
+How can you use the commands git log and git diff to view the history of files?
+--
+Como usar os comandos git log e git diff para visualizar o histórico dos arquivos?
+
+    RS: O "GIT log" é para ver todo o histórico de commits/versões de um github/projeto, 
+        assim como uma breve descrição de cada commit/atualização e com o 
+        "GIT diff" conseguimos identificar quais foram as atualizações feitas entre dois IDs de commit, 
+        tanto linhas incluídas, como linhas excluídas.
+
+How might using version control make you more confident to make changes that
+could break something?
+--
+De que modo o controle de versão pode dar a você mais segurança para fazer 
+alterações que podem danificar algo?
+
+    RS: O GIT me dá condições de visualizar o estado do projeto em um versões anteriores e
+        podê-las comparar versão a versão e descubrir onde se deu o erro que causou o problema identificado na versão atual.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+--
+Agora que você já configurou a sua área de trabalho, você quer usar o Git para quê?
+
+    RS: Para poder "Controlar as Versões" de meu projeto, de forma evolutiva e 
+        onde eu tenha possa efetuar comparações entre versões/commits e identificar possíveis erros
+        ocorrido na evolução de um projeto.
+
+
+-- PARA CRIAR UM REPOSITORIO
+git init  ( cria a pasta oculta .git )        
+ls -a     ( para visualizar as pastas ocultas .git )
+git status ( para verificar o status atual do repositório recém criado)
