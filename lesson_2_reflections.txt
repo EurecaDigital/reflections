@@ -1,0 +1,32 @@
+What happens when you initialize a repository? Why do you need to do it?
+--
+O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
+
+	RS.: Ao iniciar um repositório, é criado uma pasta oculta .git onde conterá toda a configuração do repositório.
+		 É preciso inicializar o git para transformar a pasta em repositório.
+
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+--
+Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
+
+	RS.: A parea de preparação do diretório, é uma área onde ficam os arquivos adicionados recentemente e que não foram commitados,
+	     isso nos dá a oportunidade de identificar quantos são os commits, identificando se podemos agrupar os arquivos.
+	     Além de mostrar os arquivos disponíveis para serem commitados, também exibo os arquivos que não foram adicionados a área de preparação.
+
+
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+manually?
