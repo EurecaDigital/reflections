@@ -1,4 +1,4 @@
-UPDATE LC x AZT x EURECA
+UPDATE LC x AZT x EURECA: 12:37mints
 ============================
 
 What happens when you initialize a repository? Why do you need to do it?
